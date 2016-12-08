@@ -94,6 +94,7 @@ int main(int argc, char **argv) {
         /*if not delive the ERROR Message*/
         return ERROR;
     }
+    /*convert a char stored in the argv array to int*/
     int password_length = atoi(argv[1]);
     assert(password_length > 0);
     char *filename = argv[2];
