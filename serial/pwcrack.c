@@ -106,6 +106,7 @@ int main(int argc, char **argv) {
     char* plain = malloc(sizeof(char) * (password_length + 1));
     /*Opening the file 'rb' */
     fp = fopen(filename, "rb");
+    /*checking the file 'rb' is empty*/
     if (fp == NULL) {
         fprintf(stderr, "Could not find file: %s.\n", filename);
         return ERROR;
