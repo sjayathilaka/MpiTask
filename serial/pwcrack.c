@@ -30,7 +30,7 @@ void decrypt_password(int, char*, char**);
 /*Read line by line in the FILE (only read only parts)*/
 void read_line_in_file(FILE*, char**);
 
-
+/*if file is open read line by line till end of the characters */
 void read_line_in_file(FILE* fp, char** line) {
     size_t len = 0;
     ssize_t read = 0;
