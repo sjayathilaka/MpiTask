@@ -114,6 +114,7 @@ int main(int argc, char **argv) {
     }
 
     do {
+      /*Reading Line in th file*/
         read_line_in_file(fp, &line);
         decrypt_password(password_length, line, &plain);
         if (plain) {
