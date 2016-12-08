@@ -21,7 +21,7 @@ const int ALPHABET_SIZE = 28;
 
 /* Number of characters in an encrypted password. */
 const int ENCRYPTED_SIZE = 94;
-
+/*Defining an ERROR Message*/
 #define ERROR -1
 
 void decrypt_password(int, char*, char**);
