@@ -87,7 +87,9 @@ argc will be the number of strings pointed to by argv. This will be 1 plus the n
 
 The variables are named argc (argument count) and argv (argument vector) by convention,*/
 int main(int argc, char **argv) {
+  /*checking whether argc is smaller than 3*/
     if (argc < 3) {
+      
         fprintf(stderr, "Usage: pwcrack n filename\nn should be the number of characters in the password.\n");
         return ERROR;
     }
