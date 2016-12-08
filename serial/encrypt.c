@@ -35,7 +35,7 @@ void close_file(FILE* fp) {
   /*close the file 'r'*/
     fclose(fp);
 }
-
+/*Read line in line file*/
 void read_line_in_file(FILE* fp, char** line) {
     size_t len = 0;
     ssize_t read;
