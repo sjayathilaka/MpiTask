@@ -127,6 +127,7 @@ int main(int argc, char **argv) {
     (void)fclose(fp);
 /*freeing line*/
     free(line);
+/*freeing plain text allocated memory*/
     free(plain);
 
     return 0;
