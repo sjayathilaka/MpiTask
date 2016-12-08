@@ -35,6 +35,7 @@ void decrypt_password(const int password_length, char* password, char** plain) {
     char letter = '_';
     /*Allocating memory for possible password combinations*/
     char* word = malloc(password_length + 1);
+    /*if encription has a null characters*/
     char *encrypted = NULL;
 
     for (i = 0; i < possibilties; i++) {
