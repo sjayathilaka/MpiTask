@@ -17,6 +17,7 @@
 #define ERROR -1
 /*adding an a string in to an char array*/
 char* encrypt_string(char* password);
+/*Opening the file*/
 FILE* open_file(char* filename);
 void close_file(FILE* fp);
 void read_line_in_file(FILE* fp, char** line);
