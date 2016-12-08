@@ -53,7 +53,11 @@ void read_line_in_file(FILE* fp, char** line) {
 char* encrypt_string(char* password) {
     return crypt(password, SALT);
 }
+/*argv and argc are how command line arguments are passed to main().
 
+argc will be the number of strings pointed to by argv. This will be 1 plus the number of arguments, as virtually all implementations will prepend the name of the program to the array.
+
+The variables are named argc (argument count) and argv (argument vector) by convention,*/
 int main(int argc, char **argv) {
     /* If the user has specified a file on the command line then use that.
      * Otherwise use the popular password file.
