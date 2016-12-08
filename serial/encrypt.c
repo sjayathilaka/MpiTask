@@ -24,7 +24,7 @@ void close_file(FILE* fp);
 /*reading the file line by line to a char array*/
 void read_line_in_file(FILE* fp, char** line);
 
-
+/*Opeing the file 'r'*/
 FILE* open_file(char* filename) {
     FILE *fp;
     fp = fopen(filename, "r");
