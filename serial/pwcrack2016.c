@@ -76,6 +76,7 @@ int main(int argc, char **argv) {
     }
     /*convert a char stored in the argv array to int*/
     int password_length = atoi(argv[1]);
+    /*die if password length is negative.*/
     assert(password_length > 0);
     char *password = argv[2];
     char* plain = malloc(sizeof(char) * (password_length + 1));
