@@ -34,6 +34,7 @@ void read_line_in_file(FILE*, char**);
 void read_line_in_file(FILE* fp, char** line) {
   /* len domain size is zero*/
     size_t len = 0;
+  /* the read domain size is zero*/
     ssize_t read = 0;
 
     if ((read = getline(line, &len, fp)) != -1) {
