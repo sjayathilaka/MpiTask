@@ -65,7 +65,7 @@ int main(int argc, char **argv) {
     char *filename = argc > 1 ? argv[1] : PASSWD_FILE;
     char *line = NULL;
     FILE *fp = open_file(filename);
-
+/*reading the file line by line and pring a Message*/
     do {
         read_line_in_file(fp, &line);
         printf("%s encrypts to: %s\n", line, encrypt_string(line));
