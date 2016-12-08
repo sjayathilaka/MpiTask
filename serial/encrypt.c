@@ -2,7 +2,7 @@
  44* Encrypt all the strings in a given file.
  */
  // inclufing libraries
- 
+
 #define _GNU_SOURCE
 #include <crypt.h>
 #include <malloc.h>
@@ -11,7 +11,7 @@
 #include <unistd.h>
 
 #define SALT "$6$HP$"
-
+/*defing the password file*/
 #define PASSWD_FILE "../data/popular_passwords.txt"
 
 #define ERROR -1
