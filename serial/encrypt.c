@@ -30,7 +30,7 @@ FILE* open_file(char* filename) {
     fp = fopen(filename, "r");
     return fp;
 }
-
+/*Calling the file close function*/
 void close_file(FILE* fp) {
     fclose(fp);
 }
