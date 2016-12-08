@@ -15,7 +15,7 @@
 #define PASSWD_FILE "../data/popular_passwords.txt"
 /*Defining an error Message*/
 #define ERROR -1
-
+/*adding an a string in to an char array*/
 char* encrypt_string(char* password);
 FILE* open_file(char* filename);
 void close_file(FILE* fp);
