@@ -129,6 +129,6 @@ int main(int argc, char **argv) {
     free(line);
 /*freeing plain text allocated memory*/
     free(plain);
-
+/*Exiting*/
     return 0;
 }
