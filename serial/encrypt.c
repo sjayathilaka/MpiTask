@@ -1,10 +1,8 @@
-/* test*/
-
 /*
- * Encrypt all the strings in a given file.
+ 44* Encrypt all the strings in a given file.
  */
  // inclufing libraries
- //hh
+ 
 #define _GNU_SOURCE
 #include <crypt.h>
 #include <malloc.h>
