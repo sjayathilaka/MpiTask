@@ -1,3 +1,4 @@
+/*Accessing nonstandard GNU/Linux extention functions */
 #define _GNU_SOURCE
 #include <assert.h>
 #include <crypt.h>
