@@ -27,6 +27,7 @@ const int ENCRYPTED_SIZE = 94;
 
 /*function prototype for decrypt password*/
 void decrypt_password(int, char*, char**);
+/*Read line by line in the FILE (only read only parts)*/
 void read_line_in_file(FILE*, char**);
 
 
