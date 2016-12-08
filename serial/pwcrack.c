@@ -32,6 +32,7 @@ void read_line_in_file(FILE*, char**);
 
 /*if file is open read line by line till end of the characters */
 void read_line_in_file(FILE* fp, char** line) {
+  /* len domain size is zero*/
     size_t len = 0;
     ssize_t read = 0;
 
