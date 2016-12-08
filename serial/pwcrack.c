@@ -125,7 +125,7 @@ int main(int argc, char **argv) {
     } while (*line != '\0');
 /*fclose called/ file is closed*/
     (void)fclose(fp);
-
+/*freeing line*/
     free(line);
     free(plain);
 
