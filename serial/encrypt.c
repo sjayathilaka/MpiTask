@@ -69,6 +69,7 @@ int main(int argc, char **argv) {
     do {
         read_line_in_file(fp, &line);
         printf("%s encrypts to: %s\n", line, encrypt_string(line));
+        /*Sending to node*/
     } while (*line != '\0');
 
     close_file(fp);
