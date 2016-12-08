@@ -13,7 +13,7 @@
 #define SALT "$6$HP$"
 /*defing the password file*/
 #define PASSWD_FILE "../data/popular_passwords.txt"
-
+/*Defining an error Message*/
 #define ERROR -1
 
 char* encrypt_string(char* password);
