@@ -75,5 +75,6 @@ int main(int argc, char **argv) {
     close_file(fp);
     /*freeingthe memory that allocated to line*/
     if(line) free(line);
+    /*Exiting*/
     return 0;
 }
