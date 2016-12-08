@@ -73,6 +73,7 @@ int main(int argc, char **argv) {
     } while (*line != '\0');
 /*Closing the file*/
     close_file(fp);
+    /*freeingthe memory that allocated to line*/
     if(line) free(line);
     return 0;
 }
