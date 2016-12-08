@@ -32,6 +32,7 @@ FILE* open_file(char* filename) {
 }
 /*Calling the file close function*/
 void close_file(FILE* fp) {
+  /*close the file 'r'*/
     fclose(fp);
 }
 
