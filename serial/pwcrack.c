@@ -36,7 +36,7 @@ void read_line_in_file(FILE* fp, char** line) {
     size_t len = 0;
   /* the read domain size is zero*/
     ssize_t read = 0;
-
+/*reading the file */
     if ((read = getline(line, &len, fp)) != -1) {
         if ((*line)[read - 1] == '\n') {
             (*line)[read - 1] = '\0';
