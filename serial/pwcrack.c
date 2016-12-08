@@ -81,7 +81,11 @@ void decrypt_password(const int password_length, char* password, char** plain) {
 
     return;
 }
+/*argv and argc are how command line arguments are passed to main().
 
+argc will be the number of strings pointed to by argv. This will be 1 plus the number of arguments, as virtually all implementations will prepend the name of the program to the array.
+
+The variables are named argc (argument count) and argv (argument vector) by convention,*/
 int main(int argc, char **argv) {
     if (argc < 3) {
         fprintf(stderr, "Usage: pwcrack n filename\nn should be the number of characters in the password.\n");
