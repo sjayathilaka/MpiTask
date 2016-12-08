@@ -26,6 +26,7 @@ void decrypt_password(int, char*, char**);
 
 /*decrypting the password*/
 void decrypt_password(const int password_length, char* password, char** plain) {
+  /*Looking for possible combinations*/
     int possibilties = pow(ALPHABET_SIZE, password_length);
     char candidates[possibilties][password_length + 1];
     long i = 0, val = 0;
