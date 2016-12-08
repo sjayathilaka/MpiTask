@@ -70,6 +70,7 @@ The variables are named argc (argument count) and argv (argument vector) by conv
 int main(int argc, char **argv) {
     /*checking whether argc is smaller than 3*/
     if (argc < 3) {
+      /*printing the  error Message*/
         fprintf(stderr, "Usage: pwcrack n ciphertext\nn should be the number of characters in the password.\nRemember to escape $ characters in your shell\n");
         return ERROR;
     }
