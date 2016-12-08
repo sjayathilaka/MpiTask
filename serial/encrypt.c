@@ -37,6 +37,7 @@ void close_file(FILE* fp) {
 }
 /*Read line in line file*/
 void read_line_in_file(FILE* fp, char** line) {
+  /* len domain size is zero*/
     size_t len = 0;
     ssize_t read;
 
